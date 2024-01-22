@@ -194,10 +194,6 @@ require('lazy').setup({
     },
   },
   {
-    -- Adds tornsparency on terminal
-    'xiyaowong/transparent.nvim'
-  },
-  {
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
@@ -206,6 +202,7 @@ require('lazy').setup({
     },
     config = function()
       vim.cmd.colorscheme 'tokyonight-storm'
+      vim.api.nvim_command('hi Normal guibg=NONE ctermbg=NONE')
     end,
   },
   -- {
