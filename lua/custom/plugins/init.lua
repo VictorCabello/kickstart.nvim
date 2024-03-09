@@ -55,6 +55,10 @@ return {
           name = 'main',
           path = 'C:\\Users\\vmeca\\OneDrive\\Documentos\\cerebro_digital\\main',
         },
+        {
+          name = 'scouts',
+          path = 'C:\\Users\\vmeca\\OneDrive\\Documentos\\scouts\\scouts',
+        },
       },
 
       note_id_func = function(title)
