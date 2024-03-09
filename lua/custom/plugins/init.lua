@@ -9,7 +9,7 @@ vim.opt_local.conceallevel = 2
 vim.keymap.set('i', 'hh', '<Esc>')
 
 if vim.g.neovide then
-  vim.g.neovide_transparency = 0.5
+  vim.g.neovide_transparency = 0.9
 end
 
 return {
