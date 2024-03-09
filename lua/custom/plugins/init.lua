@@ -7,6 +7,7 @@ vim.opt.shell = 'pwsh'
 vim.opt.shellcmdflag = '-NoLogo -NoProfile -Command'
 vim.opt_local.conceallevel = 2
 vim.keymap.set('i', 'hh', '<Esc>')
+vim.keymap.set('t', 'hh', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.9
