@@ -6,7 +6,7 @@ vim.opt.relativenumber = true
 vim.opt.shell = 'pwsh'
 vim.opt.shellcmdflag = '-NoLogo -NoProfile -Command'
 vim.opt_local.conceallevel = 2
-vim.keymap.set('i', 'jj', '<Esc>')
+vim.keymap.set('i', 'hh', '<Esc>')
 
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.5
