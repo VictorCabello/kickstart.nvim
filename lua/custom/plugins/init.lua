@@ -3,9 +3,10 @@
 --
 -- See the kickstart.nvim README for more information
 vim.opt.relativenumber = true
-vim.g.terminal_emulator = 'pwsh'
 vim.opt.shell = 'pwsh'
+vim.opt.shellcmdflag = '-NoLogo -NoProfile -Command'
 vim.opt_local.conceallevel = 2
+vim.keymap.set('i', 'jj', '<Esc>')
 
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.5
