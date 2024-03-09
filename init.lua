@@ -787,5 +787,7 @@ require('lazy').setup {
   { import = 'custom.plugins' },
 }
 
+-- Alternatively
+require('everforest').load()
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
