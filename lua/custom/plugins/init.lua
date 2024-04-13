@@ -14,6 +14,16 @@ if vim.g.neovide then
 end
 
 return {
+  'godlygeek/tabular',
+  {
+    'akinsho/flutter-tools.nvim',
+    lazy = false,
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+    config = true,
+  },
   'gpanders/editorconfig.nvim',
   {
     'neanias/everforest-nvim',
@@ -28,7 +38,6 @@ return {
     end,
   },
   'xiyaowong/transparent.nvim',
-  'github/copilot.vim',
   'Shatur/neovim-ayu',
   'edluffy/hologram.nvim',
   {
